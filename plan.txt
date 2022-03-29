@@ -1,0 +1,41 @@
+
+What Sides do I need to build?
+
+    - Home (Full Screen Img with Hamburger Menu and Nav(Eat, Drink, Visit))
+        - Layout and Content will stay the same on Tablet and PC but Hamburger Menu will change to visible menu at 538px width.
+    - Eat (Text of different meals, one Image, One Button to make Reservations, Footer with Contact, Logo, Social Links, Opening Hours, Home-Page with parallax effect)
+        - Content will stay the same on Tablet and PC, Meal Text and Footer will become 3 column Layouts
+    - Drink (Like Section Eat but with a 2 column layout for Drink Text)
+    - Visit (Resrevation Text, Button "Find a Table", Contact, Location, Opening Infos, Credit Card and Corkage Fee Info, View Entree Menu Button, Footer like in other sections, Home-Page with parallax-effect)
+        - Same Content and Layout on larger Screens
+    - Gallery (One Column Images, Footer)
+        - Two/one column on larger Screens
+    - Story (Fullscreen img, Staff Info, Story Text, Recent Press Links, Dine with us button, Footer)
+        - three column layout with a larger middle column on larger screens
+
+
+What Fonts do I use
+
+    - For Headings like ENTRÈES, the Logo and the Home Nav: Noto Serif Display 300 or 400 font-weight
+    - For Menu-Links and Text-Blocks: Playfair Display font-weight 400 and italic
+
+
+Colors
+
+    - Background: white
+    - Texts: black
+    - Links: Gray
+    - Menu-Active: Light-Orange 
+
+
+Images
+
+    - Home-Landing Fullscreen Img
+    - Home-Eat Fullscreen Img
+    - Home-Drink Fullscreen Img
+    - Home-Visit Fullscreen Img
+    - Eat-Meal Img
+    - Drink-drink Img
+    - Visit-Location Img
+    - 9 Gallery Imgs (Can be some Images from other Sections)
+    - Story Fullscreen Img

@@ -1,0 +1,30 @@
+@mixin font-source-sans(
+  $family: false,
+  $size: false,
+  $colour: false,
+  $weight: false,
+  $lh: false
+) {
+  @if $family {
+    font-family: $family;
+  }
+  @if $size {
+    font-size: $size;
+  }
+  @if $colour {
+    color: $colour;
+  }
+  @if $weight {
+    font-weight: $weight;
+  }
+  @if $lh {
+    line-height: $lh;
+  }
+}
+
+@mixin bg-img-full($img) {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url($img);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+} ;
