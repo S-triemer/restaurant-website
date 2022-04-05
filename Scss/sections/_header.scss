@@ -1,0 +1,17 @@
+.logo {
+  font-family: $font-headings;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  a:first-of-type {
+    margin-left: auto;
+  }
+  .menu--hamburger {
+    font-size: 1.5rem;
+  }
+}

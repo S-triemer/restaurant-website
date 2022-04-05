@@ -1,45 +1,36 @@
-.wrapper {
-  padding: 1em;
+//Fonts
+.welcome {
+  color: $bg-color;
+  position: relative;
+  a {
+    color: $bg-color;
+  }
+  p {
+    font-style: italic;
+    font-size: 1.3rem;
+    color: $bg-color;
+  }
 }
 
-.logo {
-  font-family: $font-headings;
-  font-size: 1.2rem;
-  font-style: italic;
+//Background
+.img-full {
+  @include bg-img-full($img-eat);
 }
 
-main {
+.welcome main {
   position: absolute;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
   text-align: center;
-  p {
-    font-family: $font-main;
-    font-style: italic;
-    font-size: 1.3rem;
-  }
   nav {
     margin-top: 1em;
     a {
       font-size: 2rem;
       margin-right: 0.5em;
       text-decoration: none;
-      font-family: $font-headings;
       font-weight: 400;
     }
-  }
-}
-
-header {
-  display: flex;
-  align-items: center;
-  gap: 1em;
-  a:first-of-type {
-    margin-left: auto;
-  }
-  .menu--hamburger {
-    font-size: 1.5rem;
   }
 }

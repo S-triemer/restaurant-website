@@ -1,70 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
 /*Colors*/
 /*Fonts*/
 /*Images*/
-.wrapper {
-  padding: 1em;
-}
+body {
+  color: #000;
+  text-align: center; }
+  body p {
+    font-family: "Playfair Display", serif; }
+  body a {
+    /*Use Mixin*/
+    font-family: "Noto Serif Display", serif;
+    color: #000; }
+
+h2 {
+  font-family: "Noto Serif Display", serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1em; }
+
+h3,
+h4 {
+  font-family: "Noto Serif Display", serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  font-style: italic;
+  line-height: 1.8;
+  margin-bottom: 2em; }
+
+.meal > * {
+  display: block;
+  font-size: 0.9rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1em; }
+
+.meal .meal--price {
+  margin-bottom: 3rem; }
 
 .logo {
   font-family: "Noto Serif Display", serif;
   font-size: 1.2rem;
-  font-style: italic;
-}
+  font-style: italic; }
 
-main {
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1em; }
+  .header a:first-of-type {
+    margin-left: auto; }
+  .header .menu--hamburger {
+    font-size: 1.5rem; }
+
+.welcome {
+  color: #fff;
+  position: relative; }
+  .welcome a {
+    color: #fff; }
+  .welcome p {
+    font-style: italic;
+    font-size: 1.3rem;
+    color: #fff; }
+
+.img-full {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("../img/lily-banse--YHSwy6uqvk-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh; }
+
+.welcome main {
   position: absolute;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
-  text-align: center;
-}
-main p {
-  font-family: "Playfair Display", serif;
-  font-style: italic;
-  font-size: 1.3rem;
-}
-main nav {
-  margin-top: 1em;
-}
-main nav a {
-  font-size: 2rem;
-  margin-right: 0.5em;
-  text-decoration: none;
-  font-family: "Noto Serif Display", serif;
-  font-weight: 400;
-}
+  text-align: center; }
+  .welcome main nav {
+    margin-top: 1em; }
+    .welcome main nav a {
+      font-size: 2rem;
+      margin-right: 0.5em;
+      text-decoration: none;
+      font-weight: 400; }
 
-header {
-  display: flex;
-  align-items: center;
-  gap: 1em;
-}
-header a:first-of-type {
-  margin-left: auto;
-}
-header .menu--hamburger {
-  font-size: 1.5rem;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  color: #fff;
-}
-body a {
-  color: #fff;
-  /*Use Mixin*/
-  font-family: "Playfair Display", serif;
-}
+.entrees {
+  margin-top: 2em; }
 
 .wrapper {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("../img/stanford-smith-UezWo2oY4M0-unsplash.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-}/*# sourceMappingURL=style.css.map */
+  padding: 1em; }
+
+/*Only visible for screen readers*/
+.sc-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+
+/*# sourceMappingURL=style.css.map */
