@@ -110,6 +110,34 @@ h4 {
   font-size: 1.5rem;
 }
 
+footer {
+  margin-top: 5em;
+  font-family: "Playfair Display", serif;
+}
+footer h4 {
+  margin-bottom: 0;
+}
+footer li + li {
+  margin-top: 1em;
+}
+footer .logo {
+  margin: 1em 0;
+  display: inline-block;
+  font-size: 1.8em;
+  font-weight: 100;
+}
+footer .social-links {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  margin-bottom: 1em;
+}
+footer .opening-hours a {
+  color: rgb(124, 124, 124);
+  text-decoration: none;
+}
+
 .welcome {
   color: #fff;
   position: relative;
@@ -124,7 +152,7 @@ h4 {
 }
 
 .img-full {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("../img/lily-banse--YHSwy6uqvk-unsplash.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("../img/stefan-johnson-xIFbDeGcy44-unsplash.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
