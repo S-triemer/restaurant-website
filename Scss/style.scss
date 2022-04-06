@@ -2,6 +2,8 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
 @import "core/typography";
+@import "components/img-small";
+@import "components/button";
 @import "sections/header";
 @import "pages/home";
 @import "pages/eat";
@@ -10,14 +12,12 @@
   padding: 1em;
 }
 
- /*Only visible for screen readers*/
-  .sc-only {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-  }
-
-
+/*Only visible for screen readers*/
+.sc-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

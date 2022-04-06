@@ -1,30 +1,37 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 /*Colors*/
 /*Fonts*/
 /*Images*/
 body {
   color: #000;
-  text-align: center; }
-  body p {
-    font-family: "Playfair Display", serif; }
-  body a {
-    /*Use Mixin*/
-    font-family: "Noto Serif Display", serif;
-    color: #000; }
+  text-align: center;
+}
+body p {
+  font-family: "Playfair Display", serif;
+}
+body a {
+  /*Use Mixin*/
+  font-family: "Noto Serif Display", serif;
+  color: #000;
+}
 
 h2 {
   font-family: "Noto Serif Display", serif;
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: 1em; }
+  margin-bottom: 0.5em;
+  margin-top: 2em;
+}
 
 h3,
 h4 {
@@ -33,46 +40,95 @@ h4 {
   font-size: 0.9rem;
   font-style: italic;
   line-height: 1.8;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+}
 
 .meal > * {
   display: block;
   font-size: 0.9rem;
   font-family: "Playfair Display", serif;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+}
 
 .meal .meal--price {
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+}
+
+.img-small {
+  background: url("../img/lily-banse--YHSwy6uqvk-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  width: 100%;
+}
+
+.btn {
+  background-color: #fff;
+  border: 2px solid black;
+  padding: 0.8em 2.5em;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-size: 0.8em;
+  cursor: pointer;
+  border-radius: 0.2em;
+}
+
+.btn--bottom {
+  margin-bottom: 10em;
+}
+
+.horizontal-line {
+  width: 100%;
+  height: 0.01em;
+  background-color: #000;
+}
+
+.btn:hover,
+:active {
+  background-color: #000;
+  color: #fff;
+}
 
 .logo {
   font-family: "Noto Serif Display", serif;
   font-size: 1.2rem;
-  font-style: italic; }
+  font-style: italic;
+}
 
 .header {
   display: flex;
   align-items: center;
-  gap: 1em; }
-  .header a:first-of-type {
-    margin-left: auto; }
-  .header .menu--hamburger {
-    font-size: 1.5rem; }
+  gap: 1em;
+}
+.header a:first-of-type {
+  margin-left: auto;
+}
+.header .menu--hamburger {
+  font-size: 1.5rem;
+}
 
 .welcome {
   color: #fff;
-  position: relative; }
-  .welcome a {
-    color: #fff; }
-  .welcome p {
-    font-style: italic;
-    font-size: 1.3rem;
-    color: #fff; }
+  position: relative;
+}
+.welcome a {
+  color: #fff;
+}
+.welcome p {
+  font-style: italic;
+  font-size: 1.3rem;
+  color: #fff;
+}
 
 .img-full {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("../img/lily-banse--YHSwy6uqvk-unsplash.jpg");
   background-position: center;
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+}
 
 .welcome main {
   position: absolute;
@@ -80,20 +136,25 @@ h4 {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
-  text-align: center; }
-  .welcome main nav {
-    margin-top: 1em; }
-    .welcome main nav a {
-      font-size: 2rem;
-      margin-right: 0.5em;
-      text-decoration: none;
-      font-weight: 400; }
+  text-align: center;
+}
+.welcome main nav {
+  margin-top: 1em;
+}
+.welcome main nav a {
+  font-size: 2rem;
+  margin-right: 0.5em;
+  text-decoration: none;
+  font-weight: 400;
+}
 
 .entrees {
-  margin-top: 2em; }
+  margin-top: 2em;
+}
 
 .wrapper {
-  padding: 1em; }
+  padding: 1em;
+}
 
 /*Only visible for screen readers*/
 .sc-only {
@@ -102,6 +163,5 @@ h4 {
   top: auto;
   width: 1px;
   height: 1px;
-  overflow: hidden; }
-
-/*# sourceMappingURL=style.css.map */
+  overflow: hidden;
+}/*# sourceMappingURL=style.css.map */
